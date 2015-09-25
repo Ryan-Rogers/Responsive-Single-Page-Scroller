@@ -1,4 +1,35 @@
+/*
+    Author Ryan Rogers
+    Edited September 25, 2015
+    Created September 24, 2015
+*/
+    
 body {
-    background: black;
     color: white;
+    margin: 0px;
+    max-width: 100%;
+    background-color: black;
+    background-image: url(../img/bg.jpg);
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#container {
+    background: green;
+    max-width: 1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#header {
+    background: red;
+}
+
+#content {
+    background: blue;
+}
+
+#footer {
+    background: gray;
 }
